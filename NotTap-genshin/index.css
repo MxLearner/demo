@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('1317128.jpg');
+    background-size: cover;
+    /* 调整图像尺寸以填充整个容器 */
+    background-repeat: no-repeat;
+    /* 防止图像重复 */
+    background-attachment: fixed;
+    /* 可选：固定背景图像 */
+    /*  background-color: rgb(34, 222, 209, 0.2); */
+}
+
+.game {
+    width: 35%;
+    height: 688px;
+    margin: auto;
+    background-color: rgb(34, 222, 209, 0.2);
+    display: flex;
+}
+
+.area {
+    width: 100%;
+    height: 650px;
+    border-style: solid;
+    /* background-color: rgb(34, 222, 209, 0.2); */
+    border-width: 0;
+}
+
+.main {
+    height: 570px;
+    background-color: white;
+    top: -115px;
+    position: relative;
+    background-color: rgb(34, 222, 209, 0.1);
+}
+
+.play {
+    height: 120px;
+    width: 23.6%;
+    font-size: 30px;
+    position: fixed;
+    z-index: 9999;
+    background-color: rgb(126, 238, 230);
+}
+
+.score,
+.speed {
+    width: 100%;
+    height: 100px;
+    margin: 25px 0;
+    box-sizing: border-box;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.score p,
+.speed p {
+    height: 50px;
+    line-height: 50px;
+}
+
+.speedUp,
+.slowDown,
+.pause {
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(12, 63, 182, 0.2);
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.speedUp {
+    margin: 50px 0 25px 0;
+}
+
+.slowDown {
+    margin: 25px 0 25px 0;
+}
+
+.pause {
+    margin: 25px 0 50px 0;
+}
+
+.newrow {
+    width: 100%;
+    height: 115px;
+    display: flex;
+
+}
+
+.newrow div {
+    width: 25%;
+    height: 115px;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    /* border-top-width: 0;
+    border-left-width: 0; */
+    cursor: pointer;
+    transition: top 0.2s ease;
+
+}
+
+button {
+    border: none;
+}
+
+.i {
+
+    background-size: cover;
+    /* 调整图像尺寸以填充整个容器 */
+    background-repeat: no-repeat;
+    /* 防止图像重复 */
+    opacity: 0.8;
+}
